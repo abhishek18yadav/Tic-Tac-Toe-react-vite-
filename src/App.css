@@ -1,0 +1,44 @@
+#root{
+    background-color: chocolate;
+}
+.boardrow{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+.gamename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}.gamename h4{
+    height: 34px;
+    font-size: 44px;
+}
+.boardlook2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 442px;
+    background-color: rgb(148, 104, 104);
+}
+.Boardcontainer{
+    height: fit-content;
+    gap: 34px;
+
+    background-color: brown;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.boardrow{
+    gap: 13px;
+}
+.boardbtn button{
+    height: 39px;
+    width: 45px;
+}
+.boardbtn{
+padding-top: 23px;
+height: 45px;
+width: 50px;
+}
